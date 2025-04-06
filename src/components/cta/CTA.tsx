@@ -27,7 +27,9 @@ export const CTA = () => {
           }}
           className="relative mb-3"
         >
-          <GlowingChip>Exciting announcement 🎉</GlowingChip>
+          <GlowingChip>
+            Get professional headshots and photos in seconds
+          </GlowingChip>
         </motion.div>
         <motion.h1
           initial={{
@@ -45,7 +47,7 @@ export const CTA = () => {
           }}
           className="mb-9 max-w-xl text-center text-3xl font-bold leading-tight text-zinc-50 sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight"
         >
-          A landing page template that works for you
+          Professional headshots and photos powered by AI
         </motion.h1>
         <motion.div
           initial={{
@@ -67,7 +69,7 @@ export const CTA = () => {
             onClick={() => router.push("/signin")}
             className="flex items-center gap-2"
           >
-            Try it free
+            Get started for free
             <FiArrowRight />
           </SplashButton>
           <GhostButton

@@ -1,45 +1,45 @@
 import React from "react";
 import {
-  FiCalendar,
-  FiCheck,
-  FiCloud,
+  FiCamera,
+  FiClock,
   FiDollarSign,
-  FiMoon,
-  FiWatch,
+  FiSliders,
+  FiSmile,
+  FiUser,
 } from "react-icons/fi";
 import { IconType } from "react-icons";
 
 export const SimpleGrid = () => (
   <div className="relative z-10 grid grid-cols-2 gap-9 px-3 md:grid-cols-3 md:gap-12 md:px-6">
     <Item
-      Icon={FiCalendar}
-      title="Clear your calendar"
-      subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, dolorem."
+      Icon={FiCamera}
+      title="Studio-quality results"
+      subtitle="Get professional headshots with perfect lighting, composition, and clarity that rivals professional studio photography."
     />
     <Item
-      Icon={FiWatch}
-      title="Save tens of hours"
-      subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, dolorem."
-    />
-    <Item
-      Icon={FiMoon}
-      title="Rest easy"
-      subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, dolorem."
+      Icon={FiClock}
+      title="Ready in minutes"
+      subtitle="No scheduling, no travel, no waiting for edited photos. Get your perfect headshots in minutes, not weeks."
     />
     <Item
       Icon={FiDollarSign}
-      title="Save thousands"
-      subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, dolorem."
+      title="Fraction of the cost"
+      subtitle="Professional headshot sessions can cost hundreds. Our AI solution provides multiple options at a fraction of the price."
     />
     <Item
-      Icon={FiCloud}
-      title="Simple hosting"
-      subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, dolorem."
+      Icon={FiSliders}
+      title="Customizable styles"
+      subtitle="Choose from multiple backgrounds, lighting styles, and professional settings to match your industry and personal brand."
     />
     <Item
-      Icon={FiCheck}
-      title="Everything you need"
-      subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, dolorem."
+      Icon={FiUser}
+      title="Personal branding"
+      subtitle="Present yourself exactly how you want to be seen. Perfect for LinkedIn, company websites, speaking engagements, and more."
+    />
+    <Item
+      Icon={FiSmile}
+      title="Unlimited retakes"
+      subtitle="Not happy with your expression? Generate new variations until you find the perfect headshot that represents you."
     />
   </div>
 );

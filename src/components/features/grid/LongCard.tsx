@@ -18,11 +18,10 @@ export const LongCard = () => {
     <div className="col-span-2 h-fit sm:h-[209px]">
       <Card>
         <div className="relative z-20">
-          <CalloutChip>Callout #4</CalloutChip>
-          <p className="mb-1.5 text-2xl">Talk about integrations</p>
+          <CalloutChip>AI Technology</CalloutChip>
+          <p className="mb-1.5 text-2xl">Powered by Advanced AI</p>
           <p className="max-w-sm text-zinc-400">
-            If you connect with tools that people already know and use, show it
-            off!
+            Built with cutting-edge AI models to deliver studio-quality professional photos for any use case.
           </p>
         </div>
         <div className="absolute bottom-0 right-0 top-0 z-10 w-48 bg-gradient-to-r from-zinc-950/0 to-zinc-950" />
@@ -166,19 +165,13 @@ const degreesToRadians = (degrees: number) => {
 
 const ICON_DATA = [
   {
-    Icon: SiGithub,
-  },
-  {
-    Icon: SiTwilio,
-  },
-  {
     Icon: SiReact,
   },
   {
-    Icon: SiZapier,
+    Icon: SiAuth0,
   },
   {
-    Icon: SiAuth0,
+    Icon: SiGithub,
   },
   {
     Icon: SiPlanetscale,
@@ -187,7 +180,7 @@ const ICON_DATA = [
     Icon: SiSupabase,
   },
   {
-    Icon: SiBuildkite,
+    Icon: SiTwilio,
   },
 ];
 

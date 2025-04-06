@@ -20,11 +20,11 @@ export const Tower = () => {
       <Card>
         <PulseLine />
 
-        <CalloutChip>Callout #1</CalloutChip>
-        <p className="mb-2 text-2xl">Show your product</p>
+        <CalloutChip>AI-Powered</CalloutChip>
+        <p className="mb-2 text-2xl">Professional Headshots in Minutes</p>
         <p className="mb-8 text-zinc-400">
-          These cards are a great place to give a high level break down of what
-          your website is about. Try to talk about benefits instead of features.
+          Transform your professional image with our state-of-the-art AI headshot generator. 
+          Perfect for LinkedIn, resumes, and business profiles - no photographer needed.
         </p>
 
         <CornerBlur />

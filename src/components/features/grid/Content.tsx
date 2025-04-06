@@ -15,15 +15,15 @@ export const Content = () => {
       <MaxWidthWrapper className="relative z-20 pb-20 pt-20 md:pb-28 md:pt-40">
         <SectionHeadingSpacing>
           <SectionHeading>
-            Show the people
+            AI-powered
             <br />
             <span className="bg-gradient-to-br from-purple-400 to-purple-700 bg-clip-text text-transparent">
-              what makes you great
+              professional imaging{" "}
             </span>
           </SectionHeading>
           <SectionSubheading>
-            Here's a good way to show some high levels pros as to what your
-            product does and for who.
+            Our advanced AI technology creates stunning, professional headshots
+            that are indistinguishable from traditional photography.
           </SectionSubheading>
         </SectionHeadingSpacing>
 

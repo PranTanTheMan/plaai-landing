@@ -29,13 +29,13 @@ export const Pricing = () => {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           <PriceCard
             tier="Free"
-            price="$0/mo"
-            bestFor="Best for 1-5 users"
+            price="$15/mo"
+            bestFor="Best for personal use"
             CTA={<GhostButton className="w-full">Get started free</GhostButton>}
             benefits={[
-              { text: "One workspace", checked: true },
+              { text: "Generate 5 headshots per month", checked: true },
               { text: "Email support", checked: true },
-              { text: "1 day data retention", checked: false },
+              { text: "Standard AI models", checked: true },
               { text: "Custom roles", checked: false },
               { text: "Priority support", checked: false },
               { text: "SSO", checked: false },
@@ -43,33 +43,33 @@ export const Pricing = () => {
           />
           <PriceCard
             tier="Pro"
-            price="$79/mo"
-            bestFor="Best for 5-50 users"
+            price="$49/mo"
+            bestFor="Best for small teams"
             CTA={
               <GhostButton className="w-full bg-zinc-50 text-zinc-950 hover:bg-zinc-200 hover:text-zinc-900">
                 14-day free trial
               </GhostButton>
             }
             benefits={[
-              { text: "Five workspaces", checked: true },
+              { text: "Generate 50 headshots per month", checked: true },
               { text: "Email support", checked: true },
-              { text: "7 day data retention", checked: true },
+              { text: "Priority support", checked: true },
+              { text: "Advanced AI models", checked: true },
               { text: "Custom roles", checked: true },
-              { text: "Priority support", checked: false },
               { text: "SSO", checked: false },
             ]}
           />
           <PriceCard
             tier="Enterprise"
             price="Contact us"
-            bestFor="Best for 50+ users"
+            bestFor="Best for large teams"
             CTA={<GhostButton className="w-full">Contact us</GhostButton>}
             benefits={[
-              { text: "Unlimited workspaces", checked: true },
+              { text: "Generate unlimited headshots per month", checked: true },
               { text: "Email support", checked: true },
-              { text: "30 day data retention", checked: true },
-              { text: "Custom roles", checked: true },
               { text: "Priority support", checked: true },
+              { text: "Custom AI models", checked: true },
+              { text: "Custom roles", checked: true },
               { text: "SSO", checked: true },
             ]}
           />

@@ -5,15 +5,7 @@ import { SectionSubheading } from "@/components/utils/SectionSubheading";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { IconType } from "react-icons";
-import {
-  FiArrowLeft,
-  FiArrowRight,
-  FiArrowUp,
-  FiBox,
-  FiPhone,
-  FiShield,
-  FiUsers,
-} from "react-icons/fi";
+import { FiArrowLeft, FiArrowRight, FiCamera, FiClock, FiImage, FiSettings, FiSliders, FiZap } from "react-icons/fi";
 import useMeasure from "react-use-measure";
 
 const CARD_WIDTH = 350;
@@ -60,10 +52,9 @@ const Carousel = () => {
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="mb-12 flex flex-col items-center justify-between gap-6 md:flex-row md:items-end">
             <div className="space-y-3">
-              <SectionHeading>Dive into the specifics</SectionHeading>
+              <SectionHeading>Professional Photos Made Easy</SectionHeading>
               <SectionSubheading>
-                Anything else you want to show off? What are you proud of? What
-                makes you different? Show it off here!
+                Use AI to generate high-quality, professional photos for LinkedIn, resumes, and more in under 60 seconds.
               </SectionSubheading>
             </div>
             <div className="flex items-center gap-2">
@@ -139,37 +130,44 @@ type FeatureType = {
 const features: FeatureType[] = [
   {
     id: 1,
-    Icon: FiArrowUp,
-    title: "Fast & accurate reporting",
+    Icon: FiZap,
+    title: "Instant Generation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+      "Get your professional headshots in under 60 seconds with our lightning-fast AI processing.",
   },
   {
     id: 2,
-    Icon: FiShield,
-    title: "A+ Security",
+    Icon: FiSliders,
+    title: "Style Customization",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+      "Choose from multiple professional styles, backgrounds, and lighting options to match your needs.",
   },
   {
     id: 3,
-    Icon: FiUsers,
-    title: "World class teams",
+    Icon: FiImage,
+    title: "Studio Quality",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+      "AI-generated photos that rival professional studio shots, perfect for LinkedIn and business use.",
   },
   {
     id: 4,
-    Icon: FiPhone,
-    title: "Best in class support",
+    Icon: FiSettings,
+    title: "Advanced AI Models",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+      "Powered by state-of-the-art AI technology to ensure realistic and professional results every time.",
   },
   {
     id: 5,
-    Icon: FiBox,
-    title: "All-in-one product",
+    Icon: FiClock,
+    title: "Bulk Processing",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+      "Generate multiple variations and styles in one go, saving you time and effort.",
+  },
+  {
+    id: 6,
+    Icon: FiCamera,
+    title: "Professional Photos",
+    description:
+      "Not just headshots, our AI can generate professional photos for any use case, from product photography to event photography.",
   },
 ];

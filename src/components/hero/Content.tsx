@@ -24,7 +24,9 @@ export const Content = () => {
           ease: "easeInOut",
         }}
         className="relative"
-      ></motion.div>
+      >
+        <GlowingChip>Pro-quality headshots in seconds 🎉</GlowingChip>
+      </motion.div>
       <motion.h1
         initial={{
           y: 25,
@@ -41,7 +43,7 @@ export const Content = () => {
         }}
         className="mb-3 text-center text-3xl font-bold leading-tight text-zinc-50 sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight lg:text-8xl lg:leading-tight"
       >
-        A landing page template that works for you
+        Professional headshots and photos powered by AI
       </motion.h1>
       <motion.p
         initial={{
@@ -59,8 +61,8 @@ export const Content = () => {
         }}
         className="mb-9 max-w-2xl text-center text-base text-zinc-400 sm:text-lg md:text-xl"
       >
-        Build beautiful landing pages for your startups, clients, and side
-        projects, without having to think about design.
+        Generate studio-quality professional headshots for LinkedIn, resumes,
+        and company websites in minutes. No photographer, no studio, no hassle.
       </motion.p>
       <motion.div
         initial={{

@@ -8,31 +8,29 @@ export const MiniCard2 = () => {
   return (
     <div className="col-span-2 h-[415px] sm:h-[375px] md:col-span-1">
       <Card>
-        <CalloutChip>Callout #3</CalloutChip>
-        <p className="mb-1.5 text-2xl">Let customers talk for you</p>
+        <CalloutChip>Customer Success</CalloutChip>
+        <p className="mb-1.5 text-2xl">Loved by Professionals</p>
         <p className="text-zinc-400">
-          Someone else saying that they love you is a lot more powerful than
-          saying you love yourself.
+          Join thousands of professionals who have transformed their online presence with our AI headshots.
         </p>
 
         <div className="absolute -bottom-2 left-2 right-2 z-10 h-44 rounded-xl border border-zinc-700 bg-zinc-800/50 p-4">
           <div className="mb-3 flex gap-3">
             <img
-              src="https://api.dicebear.com/7.x/avataaars/svg?seed=Don"
-              alt="Placeholder image for faux user Don Donaldson"
+              src="https://api.dicebear.com/7.x/avataaars/svg?seed=Aditya"
+              alt="Placeholder image for Aditya Harter"
               className="size-10 shrink-0 rounded-full"
             />
             <div>
               <p className="text-sm font-semibold text-zinc-50">
-                Don Donaldson
+                Aditya Harter
               </p>
-              <p className="text-xs text-zinc-400">@donnydiesel</p>
+              <p className="text-xs text-zinc-400">@adityasahas</p>
             </div>
           </div>
           <p>
-            <span className="font-semibold text-purple-300">@your_company</span>
-            &apos;s automation tools are the best in the industry! Not sure how
-            we ever lived without them ❤️
+            <span className="font-semibold text-purple-300">@plaai</span>
+            &apos;s AI headshot generator is incredible! Got my professional LinkedIn photos done in minutes. The quality is amazing! 🌟
           </p>
 
           <SiX className="absolute right-4 top-4 text-[#1F9AF1]" />

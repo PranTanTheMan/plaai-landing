@@ -10,11 +10,11 @@ export const MiniCard1 = () => {
     <div className="col-span-2 h-[375px] md:col-span-1">
       <Card>
         <div className="mx-auto w-fit">
-          <CalloutChip>Callout #2</CalloutChip>
+          <CalloutChip>Fast & Easy</CalloutChip>
         </div>
-        <p className="mb-1.5 text-center text-2xl">Highlight something cool</p>
-        <p className="mb-6 text-center text-zinc-400">Short and sweet.</p>
-        <BubbleButton className="mx-auto">Call to action</BubbleButton>
+        <p className="mb-1.5 text-center text-2xl">Ready in 60 Seconds</p>
+        <p className="mb-6 text-center text-zinc-400">Generate stunning professional headshots instantly.</p>
+        <BubbleButton className="mx-auto">Try It Now</BubbleButton>
 
         <Ping />
       </Card>
